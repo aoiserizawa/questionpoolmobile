@@ -1,0 +1,59 @@
+".hidden":{
+	opacity:0
+}
+
+".vertical":{
+	layout:"vertical"
+}
+
+".horizontal":{
+	layout:"horizontal"
+}
+
+".hsize":{
+	height:Ti.UI.SIZE
+}
+
+".wsize":{
+	width:Ti.UI.SIZE
+}
+
+".actionBarTop":{
+	top:0
+}
+
+".whitebg":{
+	backgroundColor:"#fff"
+}
+
+".blackbg":{
+	backgroundColor:"#000"
+}
+".greybg":{
+	backgroundColor:"#000000"
+}
+
+".left0":{
+	left:0
+}
+".left3":{
+	left:3,
+	font:{
+		fontSize:20
+	}
+}
+".top0":{
+	top:0
+}
+".top10":{
+	top:10
+}
+"Label":{
+	font:{
+		 fontFamily: "/Ubuntu-Regular-Light"
+	}
+}
+
+".black":{
+	color: "#1A1A1A"
+}

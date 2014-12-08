@@ -1,0 +1,7 @@
+<Alloy>
+  <View class="actionBar">    
+    <ImageView id="rightToolbarBtn" class="rightToolbarBtn"></ImageView>
+    <ImageView class="leftToolbarBtn"></ImageView>
+    <ImageView class="centerLabel"></ImageView>
+  </View>
+</Alloy>

@@ -1,0 +1,115 @@
+"#drawer":{
+	title:"",
+	rightDrawerWidth: 250,
+	 openDrawerGestureMode: "OPEN_MODE_NONE",
+}
+
+".mainimage":{
+	image:"/homebg.png",}
+
+".homeLinksWrapper":{
+	backgroundColor:"#1A1A1A"
+}
+".homeLinksItem":{
+	width: "20%",
+	left:5,
+	right:5,
+}
+".homeLinksRow":{
+	height: "40%",
+	width:Ti.UI.SIZE,
+}
+
+"#scheduleImage":{
+	image:"/schedule.png"
+}
+
+"#announcementImage":{
+	image:"/announcement-icon.png"
+}
+
+"#newsImage":{
+	image:"/news-icon.png"
+}
+
+"#downloadsImage":{
+	image:"/downloads-icon.png"
+}
+
+"#venueImage":{
+	image:"/venue.png"
+}
+
+"#speakersImage":{
+	image:"/speakers.png"
+}
+
+".imageContainer":{
+	height: 50,
+}
+
+".linkLabel":{
+	top: 10,
+	font:{
+		fontSize: "14px",
+	}
+}
+
+".bottomLinks":{
+	top: 20,	
+}
+
+//MENU:
+".menu":{
+	layout:"vertical",
+	width: 40
+}
+
+".menuItem":{
+	layout:"horizontal",
+	height:50,
+	left: 10,
+	top: 5
+}
+
+".menuImage":{
+	left:10,
+	width: 25
+}
+".menuLabel":{
+	font:{fontSize:20},
+	color:"#fff",
+	left:10
+}
+".scheduleMenuItem":{
+	image:"/schedule-icon.png"
+}
+".speakersMenuItem":{
+	image:"/speakes-icon.png"
+}
+".venueMenuItem":{
+	image:"/venue-icons.png"
+}
+".sponsorsMenuItem":{
+	image:"/sponsor.png"
+}
+".announcementsMenuItem":{
+	image:"/announcement-icon.png"
+}
+".newsMenuItem":{
+	image:"/news-icon.png"
+}
+".socialMenuItem":{
+	image:"/social-icon.png"
+}
+".downloadsMenuItem":{
+	image:"/downloads-icon.png"
+}
+"#searchMenuItem":{
+	right: 10,
+	backgroundColor:"#808080",
+	color: "#f3f3f3",
+	font:{
+		fontSize: "20dp"
+	}
+}

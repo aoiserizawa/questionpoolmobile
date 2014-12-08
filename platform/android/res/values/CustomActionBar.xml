@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.CustomActionBar" parent="@style/Theme.AppCompat">
+        <!-- Specify an Action Bar style to use -->
+        <!-- <item name="android:actionBarStyle">@style/MyActionBar</item> -->
+        <!-- This item is required for Android 2.3.x support -->
+        <!-- <item name="actionBarStyle">@style/MyActionBar</item> -->
+        <!-- Specify the overflow style to use -->
+        <!-- <item name="android:actionOverflowButtonStyle">@style/MyActionBar</item> -->
+
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources> 

@@ -1,0 +1,28 @@
+".actionBar":{
+    top:0,
+    height:"44dp",
+    backgroundColor:"#FFDE00",
+    zIndex:1
+  }
+  ".leftToolbarBtn":{
+    image:"/foi-icon.png",
+    left: "6dp",
+    width: Ti.UI.SIZE,
+    backgroundColor:"transparent",
+    color: "#FFF"
+  }
+
+  ".rightToolbarBtn":{
+    image:"/customoverflow.png",
+    right: "6dp",
+    width: 40,
+    backgroundColor:"transparent",
+  }
+  ".centerLabel":{
+    image:"/actionbar_background.png",
+    width: 200,
+    font:{
+      fontSize:"14dp",
+      fontWeight:"bold"
+    },
+  }
