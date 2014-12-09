@@ -18,7 +18,14 @@
             </Window>
         </NavigationWindow> -->
 
-        <View id="centerView" platform="android" role="centerWindow">
+        <!-- 
+        *
+        *
+        	fpl.ui is the widget where the openWindow() of $nav_win came from 
+        *
+        *
+        -->
+        <View id="nav_win" module="fpl.ui" platform="android" role="centerWindow">
         	<!--<View id="speakers" class="hidden">
         		<Require src="speakers"/>
         	</View>
@@ -49,48 +56,7 @@
                 <View class="vertical" id="main">
 	            <ImageView class="mainimage actionBarTop"></ImageView>
 	            <View class="homeLinksWrapper">
-		            <View class="homeLinks vertical hsize">
-		            	<View class="homeLinksRow horizontal">
-                            <View class="homeLinksItem  vertical" _page="announcement">
-                                <View class="imageContainer" _page="announcement">
-                                    <ImageView id="announcementImage" _page="announcement"></ImageView>
-                                </View>
-                                <Label class="linkLabel" _page="announcement">Announcement</Label>
-                            </View>
-		            		<View class="homeLinksItem  vertical" _page="schedule">
-		            			<View class="imageContainer" _page="schedule">
-		            				<ImageView id="scheduleImage" _page="schedule"></ImageView>
-		            			</View>
-		            			<Label class="linkLabel" _page="schedule">Schedule</Label>
-		            		</View>
-		            		<View class="homeLinksItem  vertical" _page="speakers">
-		            			<View class="imageContainer" _page="speakers">
-		            				<ImageView id="speakersImage" _page="speakers"></ImageView>
-		            			</View>
-		            			<Label class="linkLabel" _page="speakers">Speakers</Label>
-		            		</View>
-		            	</View>
-                        <View class="homeLinksRow bottomLinks horizontal">
-                            <View class="homeLinksItem  vertical" _page="venue">
-                                <View class="imageContainer" _page="venue">
-                                    <ImageView id="venueImage" _page="venue"></ImageView>
-                                </View>
-                                <Label class="linkLabel" _page="venue">Venue</Label>
-                            </View>
-                            <View class="homeLinksItem  vertical" _page="news">
-                                <View class="imageContainer" _page="news">
-                                    <ImageView id="newsImage" _page="news"></ImageView>
-                                </View>
-                                <Label class="linkLabel" _page="news">News</Label>
-                            </View>
-                            <View class="homeLinksItem  vertical" _page="downloads">
-                                <View class="imageContainer" _page="downloads">
-                                    <ImageView id="downloadsImage" _page="downloads"></ImageView>
-                                </View>
-                                <Label class="linkLabel" _page="downloads">Downloads</Label>
-                            </View>
-                        </View>
-		            </View>
+		            
 		        </View>   
 	        </View>
         </View>
@@ -99,42 +65,11 @@
     
         <Window module="xp.ui" role="rightWindow" class="menu">
             <ScrollView class="vertical" showHorizontalIndicator="false" scrollType="vertical" showVerticalIndicator="false" height="100%">     
-            <View class="menuItem">
-                <TextArea id="searchMenuItem" hintText="SEARCH BAR" height="70" width="230" value="SEARCH BAR" />
-            </View>
-            <View id="announcementDialog" class="menuItem" _page="announcement">
-                <ImageView class="menuImage announcementsMenuItem" _page="announcement"></ImageView>
-                <Label class="menuLabel" _page="announcement">Announcements</Label>
-            </View>
-            <View class="menuItem" _page="schedule">
-            <ImageView class="menuImage scheduleMenuItem" _page="schedule"></ImageView>
-              <Label class="menuLabel" _page="schedule">Schedule</Label>
-            </View>
-            <View class="menuItem" _page="speakers">
-            <ImageView class="menuImage speakersMenuItem" _page="speakers"></ImageView>
-              <Label class="menuLabel" _page="speakers">Speakers</Label>
-            </View>
-            <View class="menuItem" _page="venue">
-            <ImageView class="menuImage venueMenuItem" _page="venue"></ImageView>
-              <Label class="menuLabel" _page="venue">Venue</Label>
-            </View>
-            <View id="newsDialog" class="menuItem" _page="news">
-                <ImageView class="menuImage newsMenuItem" _page="news"></ImageView>
-                <Label class="menuLabel" _page="news">News</Label>
-            </View>
-            <View id="socialDialog" class="menuItem" _page="social">
-                <ImageView class="menuImage socialMenuItem" _page="social"></ImageView>
-                <Label class="menuLabel" _page="social">Social</Label>
-            </View>
-            <View id="downloadsDialog" class="menuItem" _page="downloads">
-                <ImageView class="menuImage downloadsMenuItem" _page="downloads"></ImageView>
-                <Label class="menuLabel" _page="downloads">Downloads</Label>
-            </View>
-            <View class="menuItem" _page="sponsors">
-            <ImageView class="menuImage sponsorsMenuItem" _page="sponsors"></ImageView>
-              <Label class="menuLabel" _page="sponsors">Sponsors</Label>
-            </View>
-        </ScrollView>
+	            <View id="announcementDialog" class="menuItem" _page="secondwindow">
+	                <ImageView class="menuImage announcementsMenuItem" _page="secondwindow"></ImageView>
+	                <Label class="menuLabel" onClick="goToNav" _page="secondwindow">second window</Label>
+	            </View>
+        	</ScrollView>
         </Window>
     </Widget>
 </Alloy>

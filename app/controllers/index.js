@@ -6,7 +6,7 @@ function goToNav(e){
     //THIS IS YOUR HOME SO YOU CAN STILL ACCESS IT VIA ID but you should put it in a global variable for the child windows.
     Alloy.Globals.navWin = $.nav_win;
 
-    var win =  Alloy.createController(e.source._page).getView()
+    var win =  Alloy.createController(e.source._page).getView();
     //$.nav_win.openWindow(win);
     //to disable animation just use
    	//$.nav_win.openWindow(win,{animated:false});
@@ -16,7 +16,6 @@ function goToNav(e){
     //$.drawer.toggleLeftWindow();
 
     $.nav_win.openWindow(win);
-   
 
     return true;
 };
