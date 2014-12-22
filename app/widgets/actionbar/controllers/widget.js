@@ -1,4 +1,3 @@
- 
- $.rightToolbarBtn.addEventListener("singletap", function(){
+$.rightToolbarBtn.addEventListener("singletap", function(){
     Alloy.Globals.drawer.toggleRightWindow();
   });

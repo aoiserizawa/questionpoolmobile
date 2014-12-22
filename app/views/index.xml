@@ -6,7 +6,7 @@
             
         </Window>
 
-       <!--  <NavigationWindow platform="ios" role="centerWindow">
+      <!--   <NavigationWindow platform="ios" role="centerWindow">
             <Window>
                 <LeftNavButton>
                     <Button onClick="toggle">Left</Button>
@@ -51,15 +51,15 @@
                 <Require src="downloads"/>
             </View>
         	 -->
-                <View id="mainContainer">
+            <View id="mainContainer">
                 <Require src="actionbar" type="widget"/>
                 <View class="vertical" id="main">
-	            <ImageView class="mainimage actionBarTop"></ImageView>
-	            <View class="homeLinksWrapper">
+    	            <ImageView class="mainimage actionBarTop"></ImageView>
+    	            <View class="homeLinksWrapper">
 		            
-		        </View>   
-	        </View>
-        </View>
+    		        </View>   
+    	        </View>
+            </View>
         </View>
 
     

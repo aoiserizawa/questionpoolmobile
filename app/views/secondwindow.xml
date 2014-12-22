@@ -1,7 +1,7 @@
 <Alloy>
 	 <Window class="container">
-        <View>
-            <Label>second Window</Label>    	
+        <View class="vertical">
+        	<View class="hsize"><Require src="actionbar" type="widget"/></View>
 		</View>
     </Window>
 </Alloy>

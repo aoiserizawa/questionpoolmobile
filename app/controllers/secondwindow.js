@@ -13,4 +13,3 @@ function closeWindow(){
         Alloy.Globals.navWin.closeWindow($.currentController);
     });
 }
-
